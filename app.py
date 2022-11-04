@@ -2,10 +2,10 @@ import requests
 import functions
 import config
 
-URL = 'https://www.corsair.com/us/en/Categories/Products/Accessories-%7C-Parts/PC-Components/Power-Supplies/600W-PCIe-5-0-12VHPWR-Type-4-PSU-Power-Cable/p/CP-8920284'
+URL = 'https://www.corsair.com/us/en/p/json/CP-8920284'
 
 def get_status():
-    r = requests.get('https://www.corsair.com/us/en/p/json/CP-8920284')
+    r = requests.get(URL)
     j = r.json()
     return j['stock']['stockLevelStatus']['code']
 
