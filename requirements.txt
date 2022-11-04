@@ -1,0 +1,4 @@
+classes==0.4.1
+config==0.5.1
+requests==2.22.0
+twilio==7.15.0
