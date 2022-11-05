@@ -4,7 +4,7 @@ I guarantee and promise nothing. Use at your own risk. Know what you're doing (o
 ## FAQ
 ### What does this thing do?
 This is just a simple Python script for Corsair consumers who are having a rough time getting their hands on that elusive 12VHPWR cable from Corsair's US site.
-### Isn't this redundant? Why not just use the Notify When In Stock Button?**
+### Isn't this redundant? Why not just use the Notify When In Stock Button?
 In my experience, such features don't actually notify the user in time (or even at all, in some cases) that a sought-after item is in stock. By the time you get the news, you're often stuck staring at another "Sold Out" button. And according to frustrated Reddit users, this Notify button is no exception. 
 ## Installation
 ### Prerequisites
